@@ -159,6 +159,12 @@
       <version>2.27</version>
       <scope>test</scope>
     </dependency>
+	  <!-- jboss dependency http://repository.jboss.com/maven2 -->
+   <dependency>
+   <groupId>com.jboss</groupId>
+   <artifactId>jbossent-docbook-xslt</artifactId>
+   <version>1.0.0</version>
+  </dependency>
   </dependencies>
 
   <build>
