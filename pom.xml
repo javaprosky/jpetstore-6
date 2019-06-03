@@ -395,7 +395,7 @@
   </repositories>
   <pluginRepositories>
       <pluginRepository>
-          <id>public</id>
+          <id>central</id>
          <url>http://10.20.200.101:32630/repository/maven-public/</url>
          <releases>
              <enabled>true</enabled>
