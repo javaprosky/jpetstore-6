@@ -173,6 +173,11 @@
   <type>pom</type>
 </dependency>	  
 -->
+<dependency>
+<groupId>org.sonarsource.scanner.maven</groupId>
+<artifactId>sonar-maven-plugin</artifactId>
+<version>3.2</version>
+</dependency>	  
   </dependencies>
 
   <build>
@@ -373,6 +378,18 @@
         </pluginManagement>
       </build>
     </profile>
+<profile>
+<id>sonar</id>
+<activation>
+<activeByDefault>true</activeByDefault>
+</activation>
+<properties>
+<!-- Optional URL to server. Default value is http://localhost:9000 -->
+<sonar.host.url>
+http://10.20.200.101:9000
+</sonar.host.url>
+</properties>
+</profile>	  
     <profile>
       <id>jdk6</id>
       <activation>
