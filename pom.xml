@@ -395,11 +395,9 @@
 </activation>
 <properties>
 <!-- Optional URL to server. Default value is http://localhost:9000 -->
-<sonar.host.url>http://10.20.200.101:9000</sonar.host.url>
-<sonar.login>374f38ac4a14e32d8d2318af4905455d912396be</sonar.login>
-<sonar.projectName>jpetStore6-POC</sonar.projectName>
-<sonar.projectBaseDir>jpetStore6.POC.base</sonar.projectBaseDir>
-<sonar.working.directory>jpetStore6.POC.work</sonar.working.directory>
+  <sonar.host.url>http://10.20.200.101:9000</sonar.host.url>
+  <sonar.login>374f38ac4a14e32d8d2318af4905455d912396be</sonar.login>
+  <sonar.projectName>jpetStore6-POC</sonar.projectName>
 </properties>
 </profile>	  
     <profile>
