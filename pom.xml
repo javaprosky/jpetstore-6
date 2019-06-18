@@ -398,6 +398,8 @@
   <sonar.host.url>http://10.20.200.101:9000</sonar.host.url>
   <sonar.login>374f38ac4a14e32d8d2318af4905455d912396be</sonar.login>
   <sonar.projectName>jpetStore6-POC</sonar.projectName>
+  <!-- projectKey default <groupId>:<artifactId> -> ex : org.mybatis:jpetstore-->
+  <sonar.projectKey>jpetstore:javaprosky</sonar.projectKey>
 </properties>
 </profile>	  
     <profile>
